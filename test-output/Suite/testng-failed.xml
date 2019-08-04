@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="TestCase1_Chrome(failed)">
+    <parameter name="BrowserName" value="chrome"/>
+    <classes>
+      <class name="SeleniumGrid3.NewTest">
+        <methods>
+          <include name="f"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- SeleniumGrid3.NewTest -->
+    </classes>
+  </test> <!-- TestCase1_Chrome(failed) -->
+  <test thread-count="5" name="TestCase2_Firefox(failed)">
+    <parameter name="BrowserName" value="firefox"/>
+    <classes>
+      <class name="SeleniumGrid3.NewTest">
+        <methods>
+          <include name="f"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- SeleniumGrid3.NewTest -->
+    </classes>
+  </test> <!-- TestCase2_Firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

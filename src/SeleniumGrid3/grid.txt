@@ -1,0 +1,9 @@
+Hub--->
+java -jar /Users/venkatneppalli/Documents/JarFile/selenium-server-standalone-3.141.59.jar -role hub -hubConfig /Users/venkatneppalli/Documents/WorkSpace_Selenium/Selenium_Sessions/src/SeleniumGrid3/hub.json
+
+Node1--->
+java -Dwebdriver.chrome.driver="/Users/venkatneppalli/Documents/BrowserDriverVersions/chromedriver" -jar /Users/venkatneppalli/Documents/JarFile/selenium-server-standalone-3.141.59.jar -role node -nodeConfig /Users/venkatneppalli/Documents/WorkSpace_Selenium/Selenium_Sessions/src/SeleniumGrid3/node1.json
+
+
+Node2--->
+java -Dwebdriver.gecko.driver="/Users/venkatneppalli/Documents/BrowserDriverVersions/geckodriver" -jar /Users/venkatneppalli/Documents/JarFile/selenium-server-standalone-3.141.59.jar -role node -nodeConfig /Users/venkatneppalli/Documents/WorkSpace_Selenium/Selenium_Sessions/src/SeleniumGrid3/node2.json
