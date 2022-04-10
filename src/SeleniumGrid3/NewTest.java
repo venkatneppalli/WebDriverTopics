@@ -68,6 +68,7 @@ public class NewTest {
 	@AfterTest
 	public void afterTest() {
 		driver.findElement(By.linkText("Logout")).click();
+		System.out.println("quit");
 		driver.quit();
 	}
 
